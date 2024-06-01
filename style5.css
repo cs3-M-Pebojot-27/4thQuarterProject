@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Inconsolata:wght@200..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Inconsolata:wght@200..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Inconsolata:wght@200..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+form{
+    font-family: "Radio Canada Big", sans-serif; 
+}
+
+a{
+    color: black; 
+    text-decoration: none;
+}
+
+.titleText{
+    font-family: "Freeman", sans-serif; 
+    font-size: 60px; 
+    color: white; 
+    text-shadow: 2px 2px  black; 
+    text-align: center; 
+}
+
+body, html{
+    margin: 0; 
+    padding: 0; 
+    width: 100%; 
+    overflow-x: hidden; 
+}
+
+body{
+    background: linear-gradient(90deg, hsla(136, 82%, 72%, 1) 0%, hsla(205, 84%, 36%, 1) 100%);
+
+}
+
+.container{
+    margin: 30px; 
+    margin: 30px; 
+	overflow: auto;
+	width: 50%; 
+	border: none; 
+    border-radius: 20px; 
+	background-color: #EFFFFA; 
+    box-shadow: 5px 5px 5px gray;
+    transform: translateX(270px);
+    position: relative;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    overflow-x: hidden;
+    padding: 15px;  
+}
+
+.formBox{
+    width: 100%; 
+}
+
+.form-T{
+    font-family: "Radio Canada Big", sans-serif; 
+    font-size: 50px;  
+    font-weight: bold; 
+    text-align: center; 
+}
+
+.input-box, .new-input-box{
+    position: relative; 
+    width: 100%; 
+    height: 50px; 
+    border-bottom: 2px solid #1D1E2C; 
+    margin: 30px 0; 
+}
+
+.input-box input,
+.new-input-box input {
+    width: 100%; 
+    height: 30px; 
+    background: transparent; 
+    border: none; 
+    outline: none; 
+    color: black;
+}
+
+.new-input-box input::placeholder, .input-box input::placeholder {
+    font-family: "Poppins", sans-serif; 
+    font-size: 18px; 
+}
+
+
+.input-box::placeholder{
+    font-family: "Poppins", sans-serif; 
+    font-size: 18px; 
+}
+
+.checkboxRF{
+    font-size: 12px; 
+    color: black; 
+    font-weight: 400; 
+    margin: -15px 0 15px; 
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.checkboxRF label input{
+    accent-color: black; 
+    margin-right: 3px; 
+}
+
+
+.btn-submit{
+    width: 100%; 
+    height: 40px; 
+    background-color: #086375;
+    color: white; 
+    border: none; 
+    outline: none; 
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif; 
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.register{
+    font-family: "Poppins", sans-serif; 
+    font-size: 15px; 
+    margin: 25px 0px; 
+    text-align: center; 
+}
+
+.register a:hover{
+    text-decoration:underline; 
+    text-decoration-color: blue;
+    color: blue; 
+}
+

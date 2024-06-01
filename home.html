@@ -1,0 +1,109 @@
+<!DOCTYPE html> 
+<html> 
+    <head>
+        <meta charset="UTF-8"> 
+        <meta name="keywords" content="HTML, CSS, JavaScript"> 
+        <meta name="author" content="Marthea Lourdes G. Pebojot"> 
+        <meta name="revised" content="06-01-24"> 
+
+        <!--this website uses imported icons-->
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Freeman&family=Inconsolata:wght@200..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Freeman&family=Inconsolata:wght@200..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Freeman&family=Inconsolata:wght@200..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+        <title>Home | The Alternative Medicine Wiki</title>
+    </head>
+
+    <body> 
+        <nav id="navbar">
+            <img id="navLogo"; src="logo-final.png"; alt="Logo"> 
+
+            <a href="home.html"><h1 class="navTitle">The Alternative Medicine Wiki</h1></a>
+
+            <ul>
+                <li class="navButton">
+                    <a href="home.html"><span class="material-symbols-rounded">home</span></a>
+                </li>
+                <li class="navButton">
+                    <a href="about.html"><span class="material-symbols-rounded">eco</span></a>
+                </li>
+                <li class="navButton"> 
+                    <a href="lessons.html"><span class="material-symbols-rounded">note_stack</span></a>
+                </li>
+                <li class="navButton"> 
+                    <a href="resources.html"><span class="material-symbols-rounded">contact_support</span></a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <div class="welcome">
+            <p class="welcome-text">Welcome to The Alternative Medicine Wiki!</p>
+        </div>
+
+        <div class="container"> 
+            <form action=""; class="searchBar"> 
+                <input type="text" class="s-input" placeholder="Search lessons..." name="q"> 
+                <button type="submit"><span class="material-symbols-rounded">search</span></button> 
+            </form> 
+        </div>
+        
+
+        <div class="container2"> 
+            <p class="intro">Hello! This is The Alternative Medicine Wiki-- where your basic alternative medicine questions are answered! </p>
+            <div class="container3">
+                <p class="more">This wiki, made by<a href="about.html"> Marthea Lourdes G. Pebojot (Pengu-nim)</a>, is special! Wiki Info is always explained with Pengu-nim's simple (for beginners) interpretations!  </p>
+                <input type="button" id = "btn-pengu" value="Pengu-nim's Message" onclick="showMessage()">
+                <div id="msgDiv"></div>
+            </div>
+        </div>
+
+        <div class="container4">
+            <p class="whatIsAltMed">What is Alternative Medicine?</p>
+            <div class="container5"> 
+                <p class="more2">Alternative Medicine, just as its name suggests, is a natural alternative to modern artificial medicine. Want to know more? <a href="lessons.html">Click here!</a></p>
+            </div>
+
+            <p class="kinds">What are the kinds of Alternative Medicine?</p>
+            <div class="container6"> 
+                <ul class="more3">
+                    <li>Acupuncture</li>
+                    <li>Aromatherapy</li>
+                    <li>Chiropratic Care</li>
+                    <li>Herbal Medicine</li>
+                    <li>Massage Therapy</li>
+                    <li>Traditional Chinese Medicine</li>
+                    <li><a href="lessons.html">...and more!</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="movePages">
+            <div class="aboutUs"><p class="aboutUs-text">Want to know more About Us and the Wiki? <a href="about.html"><span class="material-symbols-rounded">arrow_circle_right</span></a></p></div></span>
+            <div class="lessonPage"><p class="lessons-text">Want to proceed to the Wiki Lessons? <a href="lessons.html"><span class="material-symbols-rounded">arrow_circle_right</span></a></p></div></span>
+        </div>
+
+        <br>
+        <br>
+
+        <footer> 
+            <p class="footer">Website made by Marthea Lourdes G. Pebojot | Grade 9 - Calcium</p>
+            <p class="footer2">PSHS - CRC Batch 2027 - Elysian</p>
+            <p class="footer3">Philippine Science High School - Caraga Region Campus</p>
+            <p class="footer4">Brgy. Ampayon, Butuan City 8600, Caraga Region</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+
+</html>

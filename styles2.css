@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Inconsolata:wght@200..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Inconsolata:wght@200..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+body a{
+    text-decoration: none; 
+}
+
+body, html{
+    margin: 0; 
+    padding: 0; 
+    width: 100%; 
+    overflow-x: hidden; 
+}
+
+body{
+    background-image: url(""); 
+    background-size:contain; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+nav{
+    position: fixed, top; 
+    width: 100%; 
+    height: 70px; 
+    background: rgb(72,179,57);
+    background: linear-gradient(90deg, rgba(72,179,57,1) 27%, rgba(53,247,91,1) 100%);
+    margin: 0px; 
+    padding: 20px 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; 
+    align-items: center; 
+    display: flex; 
+    overflow: hidden; 
+}  
+
+nav.shrink{
+    padding: 10px 50px; 
+}
+
+nav a{
+    text-decoration: none; 
+    color: white; 
+}
+
+.navButton{
+    list-style: none; 
+    padding: 10px; 
+    color: white; 
+    float: left; 
+    size: 100px; 
+    display: flex;
+    margin-left: 20px; 
+    margin-right: 20px; 
+}
+
+.navTitle{
+    font-family: "Freeman", sans-serif; 
+    color: #084506; 
+    font-size: 40px; 
+    margin-right: 200px; 
+}
+
+#navLogo{
+    height: 40px; 
+    float: left; 
+    margin-right: 20px; 
+}
+
+.material-symbols-outlined{
+    color: white; 
+}
+
+li{
+    border-radius: 4px;
+    align-items: center;
+}
+
+.navButton:hover{
+    cursor: pointer; 
+    background: #d5fabe; 
+    background-size: 45px; 
+    color: black; 
+}
+
+.aUTitle{
+    font-family: "Radio Canada Big", sans-serif; 
+    font-weight: bold; 
+    font-size: 40px; 
+    margin-left: 15px; 
+    text-align: center;
+}
+
+.wikiNotes{
+    margin: 30px; 
+    margin: 30px; 
+	overflow: auto;
+	width: 95%; 
+	border: none; 
+    border-radius: 20px; 
+	background-color: #CFE795;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.wikiNotes-title{
+    font-family: "Kanit", sans-serif; 
+    margin: 15px; 
+    font-size: 20px; 
+}
+
+.container1{
+    margin: 20px; 
+    position: center; 
+	overflow: auto;  
+	width: 95%; 
+	border:none; 
+    border-radius: 20px;  
+	background-color: #FFFFF3; 
+    overflow-x: hidden;
+    transition: transform 0.2s ease-in-out;
+}
+
+.wikiNotes-title-2{
+    font-family: "Kanit", sans-serif; 
+    margin: 15px; 
+    font-size: 20px;
+}
+
+.container2{
+    margin: 20px; 
+    position: center; 
+	overflow: auto;  
+	width: 95%; 
+	border:none; 
+    border-radius: 20px;  
+	background-color: #FFFFF3; 
+    overflow-x: hidden;
+    transition: transform 0.2s ease-in-out;
+}
+
+.wikiNotes-title-3{
+    font-family: "Kanit", sans-serif; 
+    margin: 15px; 
+    font-size: 20px;
+}
+
+.container3{
+    margin: 20px; 
+    position: center; 
+	overflow: auto;  
+	width: 95%; 
+	border:none; 
+    border-radius: 20px;  
+	background-color: #FFFFF3; 
+    overflow-x: hidden;
+    transition: transform 0.2s ease-in-out;
+}
+
+.author{
+    margin: 30px;  
+    margin-left: 30px; 
+	overflow: auto;
+	width: 95%; 
+	border: none; 
+    border-radius: 20px; 
+	background: rgb(66,10,156);
+    background: linear-gradient(346deg, rgba(66,10,156,1) 4%, rgba(115,34,195,1) 13%, rgba(196,162,255,1) 100%);
+    box-shadow: 5px 5px 5px gray;
+}
+
+.author-name{
+    font-family: "Kanit", sans-serif; 
+    margin: 15px; 
+    font-size:35px;
+}
+
+.theAuthor{
+    font-family: "Poppins", sans-serif;
+    margin: 15px; 
+    font-size: 18px;
+}
+
+.container4{
+    margin: 20px; 
+    position: center; 
+	overflow: auto;  
+	width: 95%; 
+	border:none; 
+    border-radius: 20px;  
+	background-color: #FFFFF3; 
+    overflow-x: hidden;
+    transition: transform 0.2s ease-in-out;
+    display: flex; 
+}
+
+.container1:hover{
+    transform: translateY(-10px); 
+    box-shadow: 10px 10px;
+}
+
+.container2:hover{
+    transform: translateY(-10px); 
+    box-shadow: 10px 10px;
+}
+
+.container3:hover{
+    transform: translateY(-10px); 
+    box-shadow: 10px 10px;
+}
+
+.container4:hover{
+    transform: translateY(-10px); 
+    box-shadow: 10px 10px;
+}
+
+#note{
+    float: right; 
+    margin: 15px; 
+    border-radius: 10px; 
+    border: none; 
+    padding: 7px; 
+    font-family: "Kanit", sans-serif; 
+    font-size: 15px;float: right; 
+    margin: 15px; 
+    border-radius: 10px; 
+    border: none; 
+    padding: 7px; 
+    font-family: "Kanit", sans-serif; 
+    font-size: 15px;
+}
+
+.wNotes-text, .wNotes-text-2, .wNotes-text-3, .moreNotes1, .moreNotes2, .a-text, .moreNotes3, .strike{
+    font-family: "Poppins", sans-serif;
+    margin: 15px; 
+    font-size: 18px;
+}
+
+.italicized{
+    font-family: "Poppins", sans-serif;
+    margin: 15px; 
+    font-size: 18px;
+    font-style:italic; 
+}
+
+#note2{
+    float: right; 
+    margin: 15px; 
+    border-radius: 10px; 
+    border: none; 
+    padding: 7px; 
+    font-family: "Kanit", sans-serif; 
+    font-size: 15px;
+}
+
+#note3{
+    float: right; 
+    margin: 15px; 
+    border-radius: 10px; 
+    border: none; 
+    padding: 7px; 
+    font-family: "Kanit", sans-serif; 
+    font-size: 15px;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{
+    text-align: center;
+    font-family: "Poppins", sans-serif; 
+}
+
+#pfp{
+    float: right; 
+    margin-top: 50px;  
+    margin-left: 100px; 
+    margin-right: 100px; 
+    width: 20%; 
+    height: 20%; 
+}
+
+.strike{
+    text-decoration: line-through;
+
+}
+
+.container5{
+    margin: 5px; 
+    position: center; 
+	overflow: auto;  
+    max-width: 60%; 
+	border:none; 
+    border-radius: 20px;  
+	background-color: #FFFFF3; 
+    overflow-x: hidden;
+    align-items: flex-start; 
+}
+
+.lessons{
+    margin: 30px;  
+    margin-left: 30px; 
+	overflow: auto;
+	width: 95%; 
+	border: none; 
+    border-radius: 20px; 
+	background: rgb(66,10,156);
+    background: linear-gradient(346deg, rgba(66,10,156,1) 4%, rgba(115,34,195,1) 13%, rgba(196,162,255,1) 100%);
+    box-shadow: 5px 5px 5px gray;
+    transition: transform 0.2s ease-in-out;
+}
+
+.lessons:hover{
+    transform: translateY(-10px); 
+}
+
+.proceed{
+    font-family: "Kanit", sans-serif; 
+    margin: 15px; 
+    font-size:20px;
+    text-align: center; 
+}
+
+#msgDiv{
+    display: none; 
+}
+
+#msgDiv2{
+    display: none; 
+}
+
+#msgDiv3{
+    display: none; 
+}
